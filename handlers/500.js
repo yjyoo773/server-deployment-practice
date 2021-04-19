@@ -1,4 +1,3 @@
-
 'use strict';
 
 module.exports = (error, req, res, next) => {

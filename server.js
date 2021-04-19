@@ -15,7 +15,7 @@ app.get('/data', stamper, (req, res) => {
   let outputObject = {
     10: "even",
     5: "odd",
-    "time": req.timestamp // we got this from the middleware
+    "time": req.timestamp 
   }
 
   res.status(200).json(outputObject);
@@ -25,6 +25,7 @@ app.get('/bad', (req, res, next) => {
   next('you messsed up')
 });
 
+// error handler
 app.use('*', notFoundHandler);
 app.use(errorHandler);
 
