@@ -1,2 +1,4 @@
 - [Heroku Dev](https://ellis-server-deploy-dev.herokuapp.com/)  
 - [Heroku Prod](https://ellis-server-deploy-prod.herokuapp.com/)
+- [Pull Request](https://github.com/yjyoo773/server-deployment-practice/pull/2)
+- [Actions](https://github.com/yjyoo773/server-deployment-practice/actions)
